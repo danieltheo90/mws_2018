@@ -1,0 +1,133 @@
+	html,
+	body,
+	#map {
+	    height: 100%;
+	    margin: auto;
+	    width: 99%;
+	}
+
+	body {
+	    padding: 0;
+	}
+
+	.container {
+	    display: grid;
+	    height: 100%;
+	    grid-gap: 4px;
+	    grid-template-columns: repeat(6, 1fr);
+	    grid-template-rows: 5% 40% 52%;
+	}
+
+	.peta {
+	    grid-column: 1/6;
+	    grid-row: 2/span 3;
+	}
+
+	.home {
+	    background: #444;
+	    grid-column: 1/-1;
+	    text-indent: 0.5em;
+	    grid-row: 1/1;
+	}
+
+	.gambar {
+	    background: #444;
+	    grid-column: 6/-1;
+	    text-align: center;
+	    grid-row: 2/2;
+	}
+
+	.gambar img {
+	    width: 100%;
+	    height: 100%;
+	}
+
+	.review {
+	    background: #444;
+	    grid-column: 6/-1;
+	    text-indent: 0.5em;
+	    padding: 10px;
+	    grid-row: 3/3;
+	}
+
+	.textreview {
+	    font-weight: bold;
+	    padding-left: 10px;
+	    margin: auto;
+	    text-align: center;
+	}
+
+	.review p {
+	    padding-left: 15px;
+	    text-indent: 0px;
+	}
+
+	.kata {
+	    font-size: 18px;
+	    font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;;
+	    color: #CCCC00;
+	    text-align: left;
+	  }
+
+	a {
+	    font-size: 18px;
+	    font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;;
+	    color: #CCCC00;
+	  }
+
+	  a:hover {
+	    color:#FF0000;
+	  /*background:#66FF33;*/
+	  }
+
+
+
+	@media only screen and  (max-device-width: 480px) {
+	    .container {
+	        display: grid;
+	        height: 100%;
+	        grid-gap: 4px;
+	        /*	grid-template-columns: auto auto auto auto;*/
+	        grid-template-rows: 5% 52% 40%;
+	    }
+	    .peta {
+	        grid-column: 1/-1;
+	        grid-row: 2;
+	    }
+	    .home {
+		    background: #444;
+		    grid-column: 1/-1;
+		    text-indent: 0.5em;
+		    grid-row: 1/1;
+		}
+	    .gambar {
+	        background: #444;
+	        grid-column: 1/5;
+	        text-align: center;
+	        padding: 10px;
+	        grid-row: 3;
+	    }
+
+	    .gambar img {
+		    width: 100%;
+		    height: 75%;
+		}
+	    .review {
+	        background: #444;
+	        grid-column: 5/7;
+	        text-indent: 0.5em;
+	        padding: 10px;
+	        grid-row: 3;
+	    }
+	    a {
+	    	font-size: 18px;
+	    	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;;
+	    	color: #CCCC00;
+	  	}
+
+	  a:hover {
+	    	color:#FF0000;
+	  /*background:#66FF33;*/
+	  }
+
+	}

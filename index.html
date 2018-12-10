@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<link rel="stylesheet" href="./assets/css/styleIndex.css">
+	<title> DanielTheo Mobile Web spesialist</title>
+	<link rel="icon" type="image/x-icon" href="./assets/image/400dpiLogoCropped.png">
+	<link rel="manifest" href="manifest.json">
+</head>
+<body>
+	<div class="wrapper">
+	    <div class="box item1"></div>
+	    <div class="box item2"></div>
+	    <div class="box item3">
+	      <a href="./project 1/kalkulator.html">
+	        <div class="title">
+	          Kalkulator
+	        </div>
+	      </a>
+	    </div>
+	    <div class="box item4">
+	      <a href="./project 3/app.html">
+	        <div class="title">
+	          Lokasi Promise
+	        </div>
+	      </a>
+	    </div>
+	    <div class="box item5">
+	      <a href="./project 2/map.html">
+	        <div class="title">
+	          Lokasi MapBox
+	        </div>
+	      </a>
+	    </div>
+	    <div class="box item6">
+	      <a href="./project 4/app.html">
+	        <div class="title">
+	          Lokasi Async
+	        </div>
+	      </a>
+	    </div>
+	    <div class="box footer">Daniel Theodorus</div>
+	</div>
+	<script>
+		if ('serviceWorker' in navigator) {
+			window.addEventListener('load', function() {
+				navigator.serviceWorker.register('sw.js')
+				.then(reg => console.log('SW terdaftar', reg))
+				.catch(err => console.log('SW Gagal: ', err));
+			});
+		}
+	</script>
+</body>
+
+</html>

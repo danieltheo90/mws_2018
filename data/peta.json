@@ -1,0 +1,47 @@
+{
+"places" : [ 
+			{	"lokasi": [-0.951676,100.357971], 
+				"sponsor" : "SentralTukang CB",
+				"gambar":"../assets/image/1.jpg",
+				"review": "Toko Retail PDG"
+			},
+			{
+				"lokasi": [-0.9519472,100.3558956], 
+				"sponsor" : "SentralTukang KCS",
+				"gambar":"../assets/image/6.jpg",
+				"review": "Toko Retail PDGII"
+			},
+			{
+				"lokasi": [0.5350475,101.42927], 
+				"sponsor" : "SentralTukang PKU", 
+				"gambar":"../assets/image/3.jpg",
+				"review": "Toko Retail PKU"
+			},
+			{	"lokasi": [-1.6073146,103.6129283], 
+				"sponsor" : "SentralTukang Jmb",
+				"gambar":"../assets/image/4.jpg",
+				"review": "Toko Retail JMB"
+			},
+			{	"lokasi": [-6.2420599,106.6515281], 
+				"sponsor" : "Klassen", 
+				"gambar":"../assets/image/5.jpg",
+				"review": "Toko Grosir JKT"
+			},
+			{	"lokasi": [-0.8574366,100.3715877], 
+				"sponsor" : "Ikad Grosir PDG", 
+				"gambar":"../assets/image/7.jpg",
+				"review": "Toko Grosir PDG"
+			},
+			{	"lokasi": [-0.9556456,100.3531283], 
+				"sponsor" : "Showroom Ikad", 
+				"gambar":"../assets/image/7.jpg",
+				"review": "Showroom Ikad"
+			},
+			{	"lokasi": [-2.9650582,104.7951457], 
+				"sponsor" : "Ikad GrosirPLM", 
+				"gambar":"../assets/image/7.jpg",
+				"review": "Toko Grosir PLM"
+			}
+
+	]
+}
